@@ -41,5 +41,9 @@ public class Main {
 		strArr.add("HUUUUU");
 		System.out.println(strArr);
 		System.out.println(strArr.contains("Hehe"));
+
+		strArr.add("OKOKOK");
+		strArr.add(str);
+		System.out.println(strArr);
 	}
 }
