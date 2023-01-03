@@ -31,6 +31,10 @@ public class Main {
 		numbers1[2] = 11;
 		System.out.println(numbers1.length); // prints 3
 
+		int[][] ints = { { 1, 5 }, { 2, 6 }, { 3, 4 } };
+		String arrayyy = Arrays.toString(ints);
+		System.out.println(arrayyy);
+
 		// adding one more integer
 //		numbers1[3] = 594;
 		System.out.println(numbers1.length); // Error
@@ -45,5 +49,6 @@ public class Main {
 		strArr.add("OKOKOK");
 		strArr.add(str);
 		System.out.println(strArr);
+
 	}
 }
