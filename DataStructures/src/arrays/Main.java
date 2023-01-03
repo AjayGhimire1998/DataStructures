@@ -50,5 +50,8 @@ public class Main {
 		strArr.add(str);
 		System.out.println(strArr);
 
+		strArr.remove(str);
+		System.out.println(strArr);
+
 	}
 }
