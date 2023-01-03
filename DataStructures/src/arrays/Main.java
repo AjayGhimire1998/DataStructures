@@ -1,5 +1,6 @@
 package arrays;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Main {
@@ -31,7 +32,14 @@ public class Main {
 		System.out.println(numbers1.length); // prints 3
 
 		// adding one more integer
-		numbers1[3] = 594;
+//		numbers1[3] = 594;
 		System.out.println(numbers1.length); // Error
+
+		ArrayList<String> strArr = new ArrayList<>(1);
+		strArr.add("Hehe");
+		System.out.println(strArr);
+		strArr.add("HUUUUU");
+		System.out.println(strArr);
+		System.out.println(strArr.contains("Hehe"));
 	}
 }
