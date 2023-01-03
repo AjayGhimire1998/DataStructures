@@ -13,9 +13,9 @@ public class Main {
 		System.out.println(copy[1]);
 		Arrays.sort(numbers);
 //
-//		for (int i = 0; i < numbers.length; i++) {
-//			System.out.println(numbers[i]);
-//		}
+		for (int i = 0; i < numbers.length; i++) {
+			System.out.println(numbers[i]);
+		}
 
 //		int firstNumber = numbers[0];
 //		int thirdNumber = numbers[2];
