@@ -17,11 +17,11 @@ public class Main {
 			System.out.println(numbers[i]);
 		}
 
-//		int firstNumber = numbers[0];
-//		int thirdNumber = numbers[2];
+		int firstNumber = numbers[0];
+		int thirdNumber = numbers[2];
 //
-//		System.out.println("First Number is: " + firstNumber);
-//		System.out.println("Third Number is: " + thirdNumber);
+		System.out.println("First Number is: " + firstNumber);
+		System.out.println("Third Number is: " + thirdNumber);
 	}
 }
 
