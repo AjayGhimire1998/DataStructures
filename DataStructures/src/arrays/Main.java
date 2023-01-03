@@ -9,9 +9,9 @@ public class Main {
 		int[] numbers = { 1, 5, 7, 2, 9 };
 		String str = Arrays.toString(numbers);
 		System.out.println(str);
-//		int[] copy = Arrays.copyOf(numbers, numbers.length);
-//		System.out.println(copy[1]);
-//		Arrays.sort(numbers);
+		int[] copy = Arrays.copyOf(numbers, numbers.length);
+		System.out.println(copy[1]);
+		Arrays.sort(numbers);
 //
 //		for (int i = 0; i < numbers.length; i++) {
 //			System.out.println(numbers[i]);
