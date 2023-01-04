@@ -64,5 +64,11 @@ public class Main {
 		int[] primes = new int[10];
 		System.out.println(primes[1]); // if the item type is numberic, its default is "o".
 
+		boolean[] states = new boolean[10];
+		System.out.println(states[2]); // for boolean, default is always "false:
+
+		String[] strings = new String[10];
+		System.out.println(strings[4]); // for reference types, default is null.
+
 	}
 }
