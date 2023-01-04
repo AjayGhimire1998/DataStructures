@@ -76,8 +76,22 @@ public class Main {
 		}
 
 		for (int i = 0; i < days.length; i++) {
-			System.out.println(days[i]);
+			System.out.println("for loop: " + days[i]);
 		}
+
+		// using while loop
+		int j = 0;
+		while (j < days.length) {
+			System.out.println("while loop: " + days[j]);
+			j++;
+		}
+
+		// using do-while loop
+		int k = 0;
+		do {
+			System.out.println("do-while loop: " + days[k]);
+			k++;
+		} while (k < days.length);
 
 	}
 
