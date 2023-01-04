@@ -60,7 +60,6 @@ public class Main {
 //		int k = a;
 
 		// declaring array
-
 		int[] primes = new int[10];
 		System.out.println(primes[1]); // if the item type is numberic, its default is "o".
 
@@ -70,5 +69,16 @@ public class Main {
 		String[] strings = new String[10];
 		System.out.println(strings[4]); // for reference types, default is null.
 
+		// enums
+		Day today = Day.WED;
+		if (today == Day.WED) {
+			System.out.println("Today is Wednesday.");
+		}
+
 	}
+
+	// enums
+	public enum Day {
+		MON, TUES, WED, THURS, FRI, SAT, SUN
+	};
 }
