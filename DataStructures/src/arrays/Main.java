@@ -111,6 +111,15 @@ public class Main {
 		int index = Arrays.binarySearch(names1, "Bimal"); // searches speciffic value
 		System.out.println("The index of Bimal: " + index);
 
+		// copying an array
+		int[] ages = { 23, 24, 21, 20, 32 };
+		String readAges = Arrays.toString(ages);
+		System.out.println("The array of ages: " + readAges);
+
+		int[] copyOfAges = Arrays.copyOf(ages, ages.length);
+		String readCopy = Arrays.toString(copyOfAges);
+		System.out.println("The array os copy ages: " + readCopy);
+
 	}
 
 }
