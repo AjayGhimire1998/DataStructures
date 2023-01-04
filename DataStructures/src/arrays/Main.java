@@ -59,5 +59,10 @@ public class Main {
 //		Integer a = new Integer(12); //deprecated
 //		int k = a;
 
+		// declaring array
+
+		int[] primes = new int[10];
+		System.out.println(primes[1]); // if the item type is numberic, its default is "o".
+
 	}
 }
