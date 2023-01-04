@@ -53,5 +53,11 @@ public class Main {
 		strArr.remove(str);
 		System.out.println(strArr);
 
+		// Automatic boxing and Unboxing
+
+//		int j = 8;
+//		Integer a = new Integer(12); //deprecated
+//		int k = a;
+
 	}
 }
