@@ -93,6 +93,24 @@ public class Main {
 			k++;
 		} while (k < days.length);
 
+		// filling an array
+		String[] months = new String[12];
+		Arrays.fill(months, "JANUARY");
+		String readMonths = Arrays.toString(months);
+		System.out.println("THe array of months: " + readMonths);
+
+		// sorting an array
+		String[] names = { "Ajay", "Arjun", "Sia", "Bimal", "Shuvam" };
+		Arrays.sort(names);
+		String readNames = Arrays.toString(names);
+		System.out.println("The array of names: " + readNames);
+
+		// binary searching an array
+		String[] names1 = { "Ajay", "Arjun", "Sia", "Bimal", "Shuvam" };
+		Arrays.sort(names1); // sorts first
+		int index = Arrays.binarySearch(names1, "Bimal"); // searches speciffic value
+		System.out.println("The index of Bimal: " + index);
+
 	}
 
 }
