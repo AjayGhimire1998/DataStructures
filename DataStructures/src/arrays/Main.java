@@ -69,6 +69,16 @@ public class Main {
 		String[] strings = new String[10];
 		System.out.println(strings[4]); // for reference types, default is null.
 
+		// iterating through arrays
+		String[] days = { "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" };
+		for (String day : days) {
+			System.out.println(day);
+		}
+
+		for (int i = 0; i < days.length; i++) {
+			System.out.println(days[i]);
+		}
+
 	}
 
 }
