@@ -119,6 +119,7 @@ public class Main {
 		int[] copyOfAges = Arrays.copyOf(ages, ages.length);
 		String readCopy = Arrays.toString(copyOfAges);
 		System.out.println("The array os copy ages: " + readCopy);
+		System.out.println(Arrays.equals(ages, copyOfAges)); // true
 
 	}
 
