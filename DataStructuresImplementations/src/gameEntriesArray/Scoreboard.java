@@ -2,7 +2,7 @@ package gameEntriesArray;
 
 public class Scoreboard {
 	private int numberOfEntries = 0;
-	private GameEntry[] board;
+	public GameEntry[] board;
 
 	Scoreboard(int capacity) {
 		board = new GameEntry[capacity];
@@ -25,6 +25,7 @@ public class Scoreboard {
 					j--; // and decrement j
 				}
 				board[j] = e; // when done, add new entry
+				System.out.println(board[j]);
 			}
 		}
 	}
@@ -38,9 +39,10 @@ public class Scoreboard {
 		GameEntry temp = board[i]; // save the object to be removed
 		for (int j = i; j < numberOfEntries - 1; j++) { // count up from i (not down)
 			board[j] = board[j + 1]; // move one cell to the left
-			board[numberOfEntries - 1] = null; // null out the old last score
-			numberOfEntries--; // decrease the entries number
 		}
+		board[numberOfEntries - 1] = null; // null out the old last score
+		numberOfEntries--; // decrease the entries number
+
 		return temp; // return the removed object
 	}
 }
