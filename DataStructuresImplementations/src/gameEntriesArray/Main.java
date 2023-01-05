@@ -1,4 +1,4 @@
-package array;
+package gameEntriesArray;
 
 public class Main {
 
