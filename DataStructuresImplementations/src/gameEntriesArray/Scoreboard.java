@@ -28,4 +28,19 @@ public class Scoreboard {
 			}
 		}
 	}
+
+	// attempt to remove and return the high score of a cheater at index i
+
+	public GameEntry remove(int i) throws IndexOutOfBoundsException {
+		if (i < 0 || i >= numberOfEntries) {
+			throw new IndexOutOfBoundsException("Invalid index: " + i);
+		}
+		GameEntry temp = board[i]; // save the object to be removed
+		for (int j = i; j < numberOfEntries - 1; j++) { // count up from i (not down)
+			board[j] = board[j + 1]; // move one cell to the left
+			board[numberOfEntries - 1] = null; // null out the old last score
+			numberOfEntries--; // decrease the entries number
+		}
+		return temp; // return the removed object
+	}
 }
