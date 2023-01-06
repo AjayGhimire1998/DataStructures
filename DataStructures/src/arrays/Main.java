@@ -2,7 +2,6 @@ package arrays;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class Main {
 
@@ -123,26 +122,26 @@ public class Main {
 		System.out.println(Arrays.equals(ages, copyOfAges)); // true
 
 		// multi dimensional array
-		Scanner in = new Scanner(System.in);
-		int[][] twoDnums = new int[3][3];
-
-		for (int i = 0; i < twoDnums.length; i++) {
-			for (int k1 = 0; k1 < twoDnums[i].length; k1++) {
-				twoDnums[i][k1] = in.nextInt();
-
-			}
-		}
+//		Scanner in = new Scanner(System.in);
+//		int[][] twoDnums = new int[3][3];
+//
+//		for (int i = 0; i < twoDnums.length; i++) {
+//			for (int k1 = 0; k1 < twoDnums[i].length; k1++) {
+//				twoDnums[i][k1] = in.nextInt();
+//
+//			}
+//		}
 
 //		System.out.println(twoDnums[1][1]);
 //		System.out.println(Arrays.toString(twoDnums));
 
-		for (int i = 0; i < twoDnums.length; i++) {
-			for (int k1 = 0; k1 < twoDnums[i].length; k1++) {
-				System.out.println(twoDnums[i][k1]);
-				System.out.println();
-
-			}
-		}
+//		for (int i = 0; i < twoDnums.length; i++) {
+//			for (int k1 = 0; k1 < twoDnums[i].length; k1++) {
+//				System.out.println(twoDnums[i][k1]);
+//				System.out.println();
+//
+//			}
+//		}
 
 	}
 
