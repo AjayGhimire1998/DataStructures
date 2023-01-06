@@ -1,11 +1,16 @@
 package sortingAnArray;
 
+import java.util.Arrays;
+
 public class Main {
 
 	public static void main(String[] args) {
 		char[] chars = { 'A', 'G', 'Y', 'B', 'O', 'L', 'E', 'Z', 'C' };
 		insertionSort(chars);
 //		System.out.println(Arrays.toString(chars));
+
+		insertionSort2(new int[] { 1, 5, 9, 3, 4, 8, 6, 2, 7 });
+
 	}
 
 	public static void insertionSort(char[] data) {
@@ -27,6 +32,21 @@ public class Main {
 			System.out.println("current after while loop: " + data[j]);
 			System.out.println();
 		}
+	}
+
+	public static void insertionSort2(int[] data) {
+		for (int i = 0; i < data.length; i++) {
+			int current = data[i];
+			int j = i;
+			while (j > 0 && data[j - 1] > current) {
+				data[j] = data[j - 1];
+				j--;
+			}
+			data[j] = current;
+
+		}
+		System.out.println(Arrays.toString(data));
+
 	}
 
 }
