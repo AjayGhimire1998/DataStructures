@@ -22,6 +22,14 @@ public class Main {
 		reverseArrayList(nums2);
 		System.out.println(nums2);
 
+		ArrayList<String> strArr = new ArrayList<>();
+		strArr.add("I");
+		strArr.add("love");
+		strArr.add("you");
+		System.out.println(strArr);
+		swappingArrayList(strArr, 0, strArr.size() - 1);
+		System.out.println(strArr);
+
 	}
 
 	public static void reverseArray(int[] data) {
@@ -59,6 +67,17 @@ public class Main {
 			temp = nums.get(i);
 			nums.set(i, nums.get(nums.size() - i - 1));
 			nums.set(nums.size() - i - 1, temp);
+		}
+	}
+
+	public static void swappingArrayList(ArrayList<String> arr, int startIndex, int endIndex) {
+		String temp;
+		while (startIndex < endIndex) {
+			temp = arr.get(startIndex);
+			arr.set(startIndex, arr.get(endIndex));
+			arr.set(endIndex, temp);
+			startIndex++;
+			endIndex--;
 		}
 	}
 }
