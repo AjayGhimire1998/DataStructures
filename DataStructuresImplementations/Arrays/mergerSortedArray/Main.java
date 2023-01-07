@@ -13,12 +13,10 @@ public class Main {
 	}
 
 	public static void merge(int[] nums1, int m, int[] nums2, int n) {
-//		int current = 0;
-		// n = nums.length - m
+
 		for (int i = 0; i < n; i++) {
 			nums1[m] = nums2[i];
 			m++;
-
 		}
 
 		for (int j = 0; j < nums1.length; j++) {
