@@ -9,11 +9,17 @@ public class Main {
 		System.out.println(Arrays.toString(nameChars));
 
 		System.out.println(createString(nameChars));
-//		System.out.println((char) (87));
+
 		System.out.println(Arrays.toString(createAlphabetsArray()));
 
-//		System.out.println((char) ('A' + (0 + 0) % 26));
-//		System.out.println((char) ('A' + (0 - 1 + 26) % 26));
+		// checking the unicode Value for the char types
+		for (int i = 65; i <= 90; i++) {
+			System.out.println((char) (i));
+		}
+
+		System.out.println('Y' + 1); // gives 90 for Z
+		System.out.println((char) ('A' + (0 + 0) % 26));
+		System.out.println((char) ('A' + (0 - 1 + 26) % 26));
 
 	}
 
