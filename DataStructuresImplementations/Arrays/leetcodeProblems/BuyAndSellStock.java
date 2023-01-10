@@ -1,6 +1,6 @@
-package buyAndSellStockArray;
+package leetcodeProblems;
 
-public class Main {
+public class BuyAndSellStock {
 	/*
 	 * You are given an array prices where prices[i] is the price of a given stock
 	 * on the ith day.

@@ -1,6 +1,6 @@
-package leetcodeTwoSums;
+package leetcodeProblems;
 
-public class Main {
+public class TwoSums {
 
 	public static void main(String[] args) {
 		int[] example = { 3, 3 };
@@ -19,5 +19,4 @@ public class Main {
 		}
 		return null;
 	}
-
 }
