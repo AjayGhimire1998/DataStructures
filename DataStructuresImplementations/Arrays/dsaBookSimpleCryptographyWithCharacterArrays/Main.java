@@ -11,6 +11,7 @@ public class Main {
 		System.out.println(createString(nameChars));
 //		System.out.println((char) (87));
 		System.out.println(Arrays.toString(createAlphabetsArray()));
+
 	}
 
 	public static String createString(char[] chars) { // creates s String from the characters array
