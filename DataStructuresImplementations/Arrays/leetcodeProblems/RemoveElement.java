@@ -1,8 +1,8 @@
-package removeElementArray;
+package leetcodeProblems;
 
 import java.util.Arrays;
 
-public class Main {
+public class RemoveElement {
 	public static void main(String[] args) {
 		int[] nums = { 2, 3, 3, 2 };
 		System.out.println(removeElement(nums, 2));
@@ -20,4 +20,5 @@ public class Main {
 		System.out.println(Arrays.toString(nums));
 		return count;
 	}
+
 }
