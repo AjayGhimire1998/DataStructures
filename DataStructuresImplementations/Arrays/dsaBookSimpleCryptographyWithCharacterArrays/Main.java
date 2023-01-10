@@ -12,6 +12,9 @@ public class Main {
 //		System.out.println((char) (87));
 		System.out.println(Arrays.toString(createAlphabetsArray()));
 
+//		System.out.println((char) ('A' + (0 + 0) % 26));
+//		System.out.println((char) ('A' + (0 - 1 + 26) % 26));
+
 	}
 
 	public static String createString(char[] chars) { // creates s String from the characters array
