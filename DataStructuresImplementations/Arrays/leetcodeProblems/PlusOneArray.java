@@ -1,8 +1,8 @@
-package plusOneLeetcode;
+package leetcodeProblems;
 
 import java.util.Arrays;
 
-public class Main {
+public class PlusOneArray {
 
 	public static void main(String[] args) {
 		int[] digits = { 7, 9, 9 };
