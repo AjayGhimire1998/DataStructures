@@ -1,4 +1,4 @@
-package gameEntriesArray;
+package dsaBookGameEntriesArray;
 
 import java.util.Arrays;
 

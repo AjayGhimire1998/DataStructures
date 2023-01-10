@@ -1,9 +1,9 @@
-package pseudoRandomNumberGenerationArray;
+package dsaBook;
 
 import java.util.Arrays;
 import java.util.Random;
 
-public class Main {
+public class PseudoRandomNumberGenerator {
 
 	public static void main(String[] args) {
 		int[] data = new int[10];
@@ -22,5 +22,4 @@ public class Main {
 		System.out.println("data: " + Arrays.toString(data));
 
 	}
-
 }

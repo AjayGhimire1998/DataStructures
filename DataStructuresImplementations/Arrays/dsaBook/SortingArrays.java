@@ -1,8 +1,8 @@
-package sortingAnArray;
+package dsaBook;
 
 import java.util.Arrays;
 
-public class Main {
+public class SortingArrays {
 
 	public static void main(String[] args) {
 		char[] chars = { 'A', 'G', 'Y', 'B', 'O', 'L', 'E', 'Z', 'C' };

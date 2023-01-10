@@ -1,4 +1,4 @@
-package gameEntriesArray;
+package dsaBookGameEntriesArray;
 
 public class GameEntry {
 	private String playerName;

@@ -1,4 +1,4 @@
-package gameEntriesArray;
+package dsaBookGameEntriesArray;
 
 public class Scoreboard {
 	private int numberOfEntries = 0;
