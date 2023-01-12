@@ -16,6 +16,7 @@ public class Main {
 		for (int i = 65; i <= 90; i++) {
 			System.out.println((char) (i));
 		}
+		String name2 = "Ajay";
 
 		System.out.println('Y' + 1); // gives 90 for Z
 		System.out.println((char) ('A' + (0 + 0) % 26));

@@ -1,4 +1,4 @@
-package dsaBookCaesarCipher;
+package dsaBook;
 
 public class CaesarCipher {
 
@@ -36,6 +36,18 @@ public class CaesarCipher {
 		}
 		return new String(msg);
 	}
+
+//	public static String transform(String original, char[] code) {
+//		char[] msg = original.toCharArray();
+//
+//		for (int i = 0; i < msg.length; i++) {
+//			if (Character.isUpperCase(msg[i])) {
+//				int j = msg[i] - 'A';
+//				msg[i] = code[j];
+//			}
+//		}
+//		return new String(msg);
+//	}
 
 	public static void main(String[] args) {
 		CaesarCipher cipher = new CaesarCipher(3);
